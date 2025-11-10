@@ -29,7 +29,7 @@ const About = () => {
             Filosofi "Wok Hei" dan Bumbu Rahasia
           </h3>
           <p className="text-secondary mb-3 lh-base">
-            Didirikan sejak tahun 2010, <b>Nasi Goreng [Nama UMKM]</b> bukan sekadar makanan, ini adalah warisan. Kami menggunakan resep turun temurun yang mengandalkan bumbu yang diulek sendiri setiap hari, tanpa pengawet, menjamin rasa yang kaya dan segar.
+            Didirikan sejak tahun 2010, <b>Nasi Goreng Bluzud</b> bukan sekadar makanan, ini adalah warisan. Kami menggunakan resep turun temurun yang mengandalkan bumbu yang diulek sendiri setiap hari, tanpa pengawet, menjamin rasa yang kaya dan segar.
           </p>
           
           {/* Blockquote style kustom dengan border Bootstrap */}

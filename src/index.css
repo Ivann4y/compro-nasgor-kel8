@@ -24,3 +24,14 @@ body {
     min-width: 320px;
     min-height: 100vh; 
 }
+
+.social-icon {
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out; /* Animasi halus */
+  display: inline-block; /* Penting untuk transform */
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* Memperbesar ikon saat di-hover */
+  color: #25d366 !important; /* Mengubah warna menjadi hijau WhatsApp saat di-hover */
+  cursor: pointer; /* Menunjukkan bahwa ini bisa diklik */
+}
