@@ -41,7 +41,7 @@ const Location = () => {
 
             <p className="fs-5 mb-3">
               <span className="fw-semibold d-block">Kontak Telepon:</span>
-              0812-XXXX-XXXX
+              0858-1210-9582
             </p>
 
             <p className="fs-5 fw-semibold text-success mt-4">

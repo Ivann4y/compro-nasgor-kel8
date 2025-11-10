@@ -32,7 +32,7 @@ const Footer = () => {
                   href="tel:0812xxxxxxxx"
                   className="text-decoration-none text-secondary"
                 >
-                  📞 Telepon: 0812-XXXX-XXXX
+                  📞 Telepon: 0858-1210-9582
                 </a>
               </li>
               <li>
