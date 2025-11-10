@@ -1,0 +1,26 @@
+/* src/index.css */
+
+/* 1. Import Bootstrap CSS (Harus di bagian paling atas) */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* 2. Custom CSS Global (Hanya yang penting untuk layout/scroll) */
+
+/* Mengatur smooth scrolling */
+html { 
+  scroll-behavior: smooth; 
+}
+
+/* Memperbaiki offset untuk Fixed Header */
+.section-padding { 
+  padding-top: 80px; 
+  margin-top: -80px; 
+}
+
+/* OPSIONAL: Mengganti font dasar, tetapi pastikan TIDAK menggunakan display: flex pada body */
+body {
+    margin: 0;
+    /* Hapus display: flex, place-items: center, dll. */
+    min-width: 320px;
+    min-height: 100vh; 
+}
