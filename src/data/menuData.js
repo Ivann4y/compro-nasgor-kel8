@@ -17,6 +17,46 @@ import nasgorGilaImg from "../assets/img/nasgor-gila.jpg";
 import nasgorSapiImg from "../assets/img/nasgor-sapi.jpg";
 import nasgorGodokImg from "../assets/img/nasi-godok.jpg";
 import nasgorSpesialImg from "../assets/img/nasgor-spesial.jpg";
+import nasgorSpesialBiasaImg from "../assets/img/nasgor-spesial-biasa.jpg";
+import nasgorAyamHatiImg from "../assets/img/nasgor-ayam-hati.jpg";
+import nasgorSeafoodImg from "../assets/img/nasgor-seafood.webp";
+import nasgorBarbequeImg from "../assets/img/nasgor-barbeque.jpg";
+import nasgorBaksoImg from "../assets/img/nasgor-bakso.webp";
+import nasgorAyamImg from "../assets/img/nasgor-ayam.jpg";
+import nasgorAtiImg from "../assets/img/nasgor-ati.jpg";
+import nasgorSosisImg from "../assets/img/nasgor-sosis.webp";
+import nasgorPetaiImg from "../assets/img/nasgor-petai.jpg";
+import nasgorJengkolImg from "../assets/img/nasgor-jengkol.jpg";
+import nasgorJambalImg from "../assets/img/nasgor-jambal.jpg";
+import nasgorTeriImg from "../assets/img/nasgor-teri.jpg";
+import nasgorMawutImg from "../assets/img/nasgor-mawut.jpg";
+import nasgorMawutSpesialImg from "../assets/img/nasgor-mawut-spesial.jpg";
+import nasgorBiasaImg from "../assets/img/nasgor-biasa.jpg";
+import nasgorVegetarianImg from "../assets/img/nasgor-vegetarian.webp";
+import nasgorJawaImg from "../assets/img/nasgor-jawa.jpg";
+import nasgorJawaSpesialImg from "../assets/img/nasgor-jawa-spesial.png";
+
+// Mie Section Images
+import mieGorengImg from "../assets/img/mie-goreng.webp";
+import mieRebusImg from "../assets/img/mie-rebus.jpg";
+import mieCampurImg from "../assets/img/mie-campur.jpg";
+
+// Kwetiau Section Images
+import kwetiauGorengImg from "../assets/img/kwetiau-goreng.jpg";
+import kwetiauRebusImg from "../assets/img/kwetiau-rebus.jpg";
+import kwetiauCampurImg from "../assets/img/kwetiau-campur.jpg";
+
+// Bihun Section Images
+import bihunGorengImg from "../assets/img/bihun-goreng.jpg";
+import bihunRebusImg from "../assets/img/bihun-rebus.webp";
+import bihunCampurImg from "../assets/img/bihun-campur.webp";
+
+// Capcay Section Images
+import capcayGorengImg from "../assets/img/capcay-goreng.jpeg";
+import capcaySeafoodImg from "../assets/img/capcay-seafood.jpg";
+import capcayAyamImg from "../assets/img/capcay-ayam.jpeg";
+import capcayTelurImg from "../assets/img/capcay-telur.jpg";
+import capcayAtiImg from "../assets/img/capcay-ati.jpg";
 /**
  * Data Menu Statis
  */
@@ -68,7 +108,7 @@ export const menu = [
     deskripsi: "(Ayam, Pete, Sosis, Teri, Bakso) - Porsi standar.",
     harga: 20000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorSpesialBiasaImg,
 },
 {
     id: 6,
@@ -77,7 +117,7 @@ export const menu = [
     deskripsi: "(Ayam, Hati) - Porsi standar.",
     harga: 20000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorAyamHatiImg,
 },
 {
     id: 7,
@@ -86,7 +126,7 @@ export const menu = [
     deskripsi: "Dengan udang dan cumi segar.",
     harga: 15000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorSeafoodImg,
 },
 {
     id: 8,
@@ -95,7 +135,7 @@ export const menu = [
     deskripsi: "Dimasak dengan saus BBQ, nanas, dan paprika.",
     harga: 15000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorBarbequeImg,
 },
 {
     id: 9,
@@ -104,7 +144,7 @@ export const menu = [
     deskripsi: "Dengan irisan bakso sapi.",
     harga: 15000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorBaksoImg,
 },
 {
     id: 10,
@@ -113,7 +153,7 @@ export const menu = [
     deskripsi: "Nasi goreng klasik dengan suwiran ayam.",
     harga: 15000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorAyamImg,
 },
 {
     id: 11,
@@ -122,7 +162,7 @@ export const menu = [
     deskripsi: "Dengan potongan hati ayam.",
     harga: 15000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorAtiImg,
 },
 {
     id: 12,
@@ -131,7 +171,7 @@ export const menu = [
     deskripsi: "Dengan irisan sosis ayam/sapi.",
     harga: 15000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorSosisImg,
 },
 {
     id: 13,
@@ -140,7 +180,7 @@ export const menu = [
     deskripsi: "Dengan taburan petai.",
     harga: 15000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorPetaiImg,
 },
 {
     id: 14,
@@ -149,7 +189,7 @@ export const menu = [
     deskripsi: "Dengan potongan jengkol.",
     harga: 15000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorJengkolImg,
 },
 {
     id: 15,
@@ -158,7 +198,7 @@ export const menu = [
     deskripsi: "Dengan ikan asin jambal.",
     harga: 15000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorJambalImg,
 },
 {
     id: 16,
@@ -167,7 +207,7 @@ export const menu = [
     deskripsi: "Dengan ikan teri medan.",
     harga: 14000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorTeriImg,
 },
 {
     id: 17,
@@ -176,7 +216,7 @@ export const menu = [
     deskripsi: "Nasi dicampur mie dengan bumbu khas.",
     harga: 18000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorMawutImg,
 },
 {
     id: 18,
@@ -185,7 +225,7 @@ export const menu = [
     deskripsi: "Nasi mawut dengan tambahan isian komplit.",
     harga: 18000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorMawutSpesialImg,
 },
 {
     id: 19,
@@ -194,7 +234,7 @@ export const menu = [
     deskripsi: "Pilihan paling dasar dan klasik.",
     harga: 13000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorBiasaImg,
 },
 {
     id: 20,
@@ -203,7 +243,7 @@ export const menu = [
     deskripsi: "Tanpa daging, dengan aneka sayuran.",
     harga: 14000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorVegetarianImg,
 },
 {
     id: 21,
@@ -212,7 +252,7 @@ export const menu = [
     deskripsi: "Bumbu lebih manis dan kental khas Jawa.",
     harga: 18000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorJawaImg,
 },
 {
     id: 22,
@@ -221,7 +261,7 @@ export const menu = [
     deskripsi: "Nasi goreng Jawa dengan isian lengkap.",
     harga: 20000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: nasgorJawaSpesialImg,
 },
 
 // --- Kategori Aneka Mie ---
@@ -232,7 +272,7 @@ export const menu = [
     deskripsi: "Mie yang digoreng standar.",
     harga: 13000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: mieGorengImg,
 },
 {
     id: 24,
@@ -241,7 +281,7 @@ export const menu = [
     deskripsi: "Mie kuah dengan kaldu sederhana.",
     harga: 13000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: mieRebusImg,
 },
 {
     id: 25,
@@ -250,7 +290,7 @@ export const menu = [
     deskripsi: "(Ayam, Hati) - Mie goreng dengan isian ayam dan hati.",
     harga: 15000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: mieCampurImg,
 },
 
 // --- Kategori Kwetiau ---
@@ -261,7 +301,7 @@ export const menu = [
     deskripsi: "Kwetiau yang digoreng standar.",
     harga: 13000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: kwetiauGorengImg,
 },
 {
     id: 27,
@@ -270,7 +310,7 @@ export const menu = [
     deskripsi: "Kwetiau kuah dengan kaldu sederhana.",
     harga: 13000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: kwetiauRebusImg,
 },
 {
     id: 28,
@@ -279,7 +319,7 @@ export const menu = [
     deskripsi: "(Ayam, Hati) - Kwetiau goreng dengan isian ayam dan hati.",
     harga: 15000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: kwetiauCampurImg,
 },
 
 // --- Kategori Bihun ---
@@ -290,7 +330,7 @@ export const menu = [
     deskripsi: "Bihun yang digoreng standar.",
     harga: 13000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: bihunGorengImg,
 },
 {
     id: 30,
@@ -299,7 +339,7 @@ export const menu = [
     deskripsi: "Bihun kuah dengan kaldu sederhana.",
     harga: 13000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: bihunRebusImg,
 },
 {
     id: 31,
@@ -308,7 +348,7 @@ export const menu = [
     deskripsi: "(Ayam, Hati) - Bihun goreng dengan isian ayam dan hati.",
     harga: 15000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: bihunCampurImg,
 },
 
 // --- Kategori Capcay ---
@@ -319,7 +359,7 @@ export const menu = [
     deskripsi: "Pilih Capcay Goreng tanpa kuah atau Rebus dengan kuah kental.",
     harga: 15000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: capcayGorengImg,
 },
 {
     id: 33,
@@ -328,7 +368,7 @@ export const menu = [
     deskripsi: "Capcay dengan udang dan cumi segar.",
     harga: 20000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: capcaySeafoodImg,
 },
 {
     id: 34,
@@ -337,7 +377,7 @@ export const menu = [
     deskripsi: "Capcay dengan potongan ayam.",
     harga: 15000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: capcayAyamImg,
 },
 {
     id: 35,
@@ -346,7 +386,7 @@ export const menu = [
     deskripsi: "Capcay dengan telur.",
     harga: 15000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: capcayTelurImg,
 },
 {
     id: 36,
@@ -355,6 +395,6 @@ export const menu = [
     deskripsi: "Capcay dengan hati ayam.",
     harga: 15000,
     isAndalan: false,
-    imagePath: nasgorGilaImg,
+    imagePath: capcayAtiImg,
   },
 ];
